@@ -1,1 +1,2 @@
-# Netflix_data_analysis_with_SQL
+# Netflix Movies and TV Shows Data Analysis using SQL
+![NETFLIX]()
