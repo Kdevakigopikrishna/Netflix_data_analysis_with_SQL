@@ -10,23 +10,38 @@ Identify the most common ratings for movies and TV shows.
 List and analyze content based on release years, countries, and durations.
 Explore and categorize content based on specific criteria and keywords.
 
-# Dataset
-Dataset Link:
 
-# Schema
-DROP TABLE IF EXISTS netflix;
-CREATE TABLE netflix
-(
-    show_id      VARCHAR(5),
-    type         VARCHAR(10),
-    title        VARCHAR(250),
-    director     VARCHAR(550),
-    casts        VARCHAR(1050),
-    country      VARCHAR(550),
-    date_added   VARCHAR(55),
-    release_year INT,
-    rating       VARCHAR(15),
-    duration     VARCHAR(15),
-    listed_in    VARCHAR(250),
-    description  VARCHAR(550)
-);
+# Business Problems
+1. Count the Number of Movies vs TV Shows
+2. Find the Most Common Rating for Movies and TV Shows
+3. List All Movies Released in a Specific Year (e.g., 2020)
+4. Find the Top 5 Countries with the Most Content on Netflix
+5. Identify the Longest Movie
+6. Find Content Added in the Last 5 Years
+7. Find All Movies/TV Shows by Director 'Rajiv Chilaka'
+8. List All TV Shows with More Than 5 Seasons
+9. Count the Number of Content Items in Each Genre
+10. Find each year and the average numbers of content release in India on netflix.
+11. List All Movies that are Documentaries
+12. Find All Content Without a Director
+13. Find How Many Movies Actor 'Salman Khan' Appeared in the Last 10 Years
+14. Find the Top 10 Actors Who Have Appeared in the Highest Number of Movies Produced in India
+15. Categorize Content Based on the Presence of 'Kill' and 'Violence' Keywords
+16. Find the Year with the Highest Number of Content Additions
+17. Find the Top 5 Directors with the Most Content
+18. Find the Average Duration of Movies
+19. Find the Most Common Genre on Netflix
+20. Compare Number of Movies vs TV Shows Released Each Year
+# Findings and Conclusion
+Content Distribution: The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
+Common Ratings: Insights into the most common ratings provide an understanding of the content's target audience.
+Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
+Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+
+# Author - DEVAKI
+This project is part of my portfolio, showcasing the SQL skills essential for data analyst roles. If you have any questions, feedback, or would like to collaborate, feel free to get in touch!
+# Connect
+- [LinkedIn](https://www.linkedin.com/in/devaki-gopi-krishna-kurakula-8bb2482b7/) – Connect with me professionally
+
+  Thank you and I look forward to connecting with you!
